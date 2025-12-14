@@ -1,9 +1,45 @@
 *{text-align: center;}
+.koka {
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    background-color: #009999;   
+}
+.text-3xl {
+        color: white;
+        text-align: center;
+        margin: 0;
+    }
+    .logo { 
+        display: flex;
+        justify-content:center;
+    }
+.logo img {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 30px;}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;}
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;}
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;}
 body {background-color: #E5F4F4;}
 ul{list-style-type: none;
 padding: 0;}
 ol{list-style-type: none;
 padding: 0;}
-h1,h2 {color: #009999;}
+h2 {color: #009999;}
 .experiencelist {
     margin-bottom: 20px;}
