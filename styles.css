@@ -6,7 +6,6 @@
    gap: 20px;
    background-color: #009999;
    padding: 10px 20px;
-
   }
 .logo img {background-color: white;
   width: 100px;
@@ -19,10 +18,9 @@
     flex-direction: column;
     justify-content: center;
     color: white;
-    text-align: center;
-  }
+    text-align: center;}
 
-  .emri-klinikës h1 {
+    .emri-klinikës h1 {
   margin: 0;
   font-size: 32px;
   font-weight: bold;}
